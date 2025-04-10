@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <div class="logo"> DEV AOJ</div>
+        <div class="menu-toggle">☰</div>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Intro -->
+    <main>
+        <div class="intro">
+            <h1 id="home">Hi, I'm <span>Abdulrahmon Jamiu</span></h1>
+            <h2>Fullstack Developer</h2>
+            <p>I’m a passionate Fullstack Developer with a knack for crafting responsive, <br> user-friendly websites. With a strong foundation in HTML, CSS, JavaScript, Node.js, Git/Git Hub, PHP and MySql <br> I specialize in turning design concepts into seamless digital experiences.</p>
+            <div class="buttons">
+                <a href="mailto:jamiuabdulrahmon100@gmail.com" class="btn-primary">Hire Me</a>
+                <a href="https://wa.me/+2348087442557" class="btn-secondary">Let's Talk</a>
+            </div>
+        </div>
+        <!-- Intro Image -->
+        <div class="image-overlay">
+            <img src="fulll.jpg" alt="Profile Picture">
+            <div class="overlay-stripes"></div>
+        </div>
+    </main>                  
+    <!-- About -->
+    <section class="about-section">
+        <h1 class="about-head">About</h1>
+        <div class="skills">
+            <div class="">
+                <div id="about">
+                    <label for="html">HTML</label>
+                    <input value="90" type="range" name="html" class="skill" id="html" disabled>
+                </div>
+    
+                <div>
+                    <label for="css">CSS</label>
+                    <input value="80" type="range" name="css" class="skill" id="css" disabled>
+                </div>
+    
+                <div>
+                    <label for="js">JAVASCRIPT</label>
+                    <input value="75" type="range" name="js" class="skill" id="js" disabled>
+                </div>
+    
+                <div>
+                    <label for="php">PHP</label>
+                    <input value="85" type="range" name="php" class="skill" id="php" disabled>
+                </div>
+    
+                <div>
+                    <label for="sql">MySql</label>
+                    <input value="70" type="range" name="sql" class="skill" id="sql" disabled>
+                </div>
+            </div>
+
+            <!-- Skills Images -->
+            <div class="images">
+                <img src="html.png" alt="HTML-LOGO" class="logos">
+                <img src="css.png" alt="CSS-LOGO" class="logos">
+                <img src="js.png" alt="JS-LOGO" class="logos">
+                <img src="node.js.png" alt="NODEJS-LOGO" class="logos">
+                <img src="github.png" alt="GITHUB-LOGO" class="logos">
+                <img src="php.png" alt="PHP-LOGO" class="logos">
+                <img src="my sql.png" alt="MY-SQL-LOGO" class="logos">
+            </div>
+        </div>
+    </section>
+    <!-- Services -->
+     <div class="services">
+        <section class="projects-section" >
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+              <div class="project-card">
+                <img src="project1.png" alt="Project 1">
+              </div>
+              <div class="project-card">
+                <img src="project2.png" alt="Project 2">
+              </div>
+              <div class="project-card">
+                <img src="Screenshot 2025-04-01 095011.png" alt="Project 3">
+              </div>
+
+          </section>
+        </div>
+          
+    <!-- Resume -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download My Resume:</p>
+        <a href="resume.pdf" target="_blank" class="btn">Download PDF</a>
+
+    </section>
+    <section>
+
+    </section>
+     <!-- Footer -->
+     <footer id="footer">
+        <p>© 2025 DEV AOJ. All Rights Reserved</p>
+        <div class="social-links" id="contact">
+            <a href="https://twitter.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 14 14"><g fill="none"><g clip-path="url(#primeTwitter0)"><path fill="currentColor" d="M11.025.656h2.147L8.482 6.03L14 13.344H9.68L6.294 8.909l-3.87 4.435H.275l5.016-5.75L0 .657h4.43L7.486 4.71zm-.755 11.4h1.19L3.78 1.877H2.504z"/></g><defs><clipPath id="primeTwitter0"><path fill="#fff" d="M0 0h14v14H0z"/></clipPath></defs></g></svg></a>
+            <a href="https://facebook.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg></a>
+            <a href="https://linkedin.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20"><path fill="currentColor" d="M17.04 17.043h-2.962v-4.64c0-1.107-.023-2.531-1.544-2.531c-1.544 0-1.78 1.204-1.78 2.449v4.722H7.793V7.5h2.844v1.3h.039c.397-.75 1.364-1.54 2.808-1.54c3.001 0 3.556 1.974 3.556 4.545zM4.447 6.194c-.954 0-1.72-.771-1.72-1.72s.767-1.72 1.72-1.72a1.72 1.72 0 0 1 0 3.44m1.484 10.85h-2.97V7.5h2.97zM18.522 0H1.476C.66 0 0 .645 0 1.44v17.12C0 19.355.66 20 1.476 20h17.042c.815 0 1.482-.644 1.482-1.44V1.44C20 .646 19.333 0 18.518 0z"/></svg></a>
+        </div>
+    </footer> 
+    <script src="portfolio.js"></script>
+</body>
+</html>
