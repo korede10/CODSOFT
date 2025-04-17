@@ -1,15 +1,4 @@
-:root {
-    --bg-color: #121212;
-    --display-bg: #000;
-    --text-color: white;
-    --accent: #0f0;
-    --btn-bg: #222;
-    --btn-hover: #333;
-    --equal-bg: #00ff00;
-    --equal-color: black;
-  }
-  
-  body {
+ body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
     background-color: var(--bg-color);
@@ -81,6 +70,17 @@
     color: var(--equal-color);
     font-weight: bold;
     border-radius: 10px 0 0 0;
+  }
+
+  :root {
+    --bg-color: #121212;
+    --display-bg: #000;
+    --text-color: white;
+    --accent: #0f0;
+    --btn-bg: #222;
+    --btn-hover: #333;
+    --equal-bg: #00ff00;
+    --equal-color: black;
   }
   
   /* LIGHT THEME */
